@@ -69,8 +69,8 @@ memory_management.unload_all_models([text_encoder, text_encoder_2, vae, unet])
 # LLM
 
 # llm_name = 'lllyasviel/omost-phi-3-mini-128k-8bits'
-llm_name = 'lllyasviel/omost-llama-3-8b-4bits'
-# llm_name = 'lllyasviel/omost-dolphin-2.9-llama3-8b-4bits'
+# llm_name = 'lllyasviel/omost-llama-3-8b-4bits'
+llm_name = 'lllyasviel/omost-dolphin-2.9-llama3-8b-4bits'
 
 llm_model = AutoModelForCausalLM.from_pretrained(
     llm_name,
